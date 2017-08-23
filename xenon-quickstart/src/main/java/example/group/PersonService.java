@@ -15,8 +15,6 @@ public class PersonService  extends StatefulService {
 
     public static class Person extends ServiceDocument {
 
-        @UsageOption(option = PropertyUsageOption.AUTO_MERGE_IF_NOT_NULL)
-
         @UsageOption(option = PropertyUsageOption.REQUIRED)
         public String name;
 
